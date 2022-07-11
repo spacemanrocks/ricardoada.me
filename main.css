@@ -171,10 +171,7 @@ header nav .links{
 }
 
 .download{
-	display: flex;
+	display: inline-flex;
 	flex-direction: row;
 	align-content: center;
-}
-.download img{
-	margin-right: 0.5rem;
 }
