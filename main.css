@@ -60,6 +60,12 @@ a.link{
 	margin-top: 0;	
 }
 
+.small{
+	font-size: 0.875rem;
+	margin-bottom: 2.5rem;
+	margin-top: 0;	
+}
+
 
 header, section{
 	display: flex;
@@ -115,9 +121,9 @@ header nav a{
 	border-radius: 2rem;
 }
 
-header nav .links .button, .download{
-	padding-left: 1rem!important;
-	padding-right: 1rem!important;
+header nav .links{
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 @media screen and (max-width: 640px){
@@ -130,7 +136,7 @@ header nav .links .button, .download{
 }
 @media screen and (min-width: 641px){
 	header nav a{
-		margin-left: 2.5rem;
+		margin-left: 1.5rem;
 	}
 	header nav .social{
 		margin-left: 5rem;
@@ -162,4 +168,13 @@ header nav .links .button, .download{
 }
 .button:hover{
 	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.download{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+}
+.download img{
+	margin-right: 0.5rem;
 }
