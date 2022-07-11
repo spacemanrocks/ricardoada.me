@@ -1,6 +1,7 @@
 :root{
   --dark-gray: rgba(34, 34, 34, 1);
   --light-gray: rgba(245, 245, 245, 1);
+  --subtle-gray: rgba(245, 245, 245, 0.5);
 
   --font-stack: 'Plus Jakarta Sans', sans-serif;
 
@@ -52,6 +53,11 @@ a.link{
 	font-size: 1.25rem;
 	margin-bottom: 2.5rem;
 	margin-top: 0;
+}
+
+.paragraph{
+	margin-bottom: 2.5rem;
+	margin-top: 0;	
 }
 
 
@@ -108,13 +114,10 @@ header nav a{
 	padding: 0.4rem;
 	border-radius: 2rem;
 }
-header nav a:hover{
-	background-color: rgba(255, 255, 255, 0.05);
-}
 
-header nav .links a{
-	padding-left: 1rem;
-	padding-right: 1rem;
+header nav .links .button, .download{
+	padding-left: 1rem!important;
+	padding-right: 1rem!important;
 }
 
 @media screen and (max-width: 640px){
@@ -144,4 +147,19 @@ header nav .links a{
 	article.about{
 		width: 50%;
 	}
+}
+
+.subtle{
+	color: var(--subtle-gray);
+}
+
+.button{
+	align-items: center;
+	display: inline-flex;
+	flex-direction: row;
+	padding: 0.4rem;
+	border-radius: 2rem;
+}
+.button:hover{
+	background-color: rgba(255, 255, 255, 0.05);
 }
