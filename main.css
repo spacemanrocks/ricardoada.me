@@ -70,6 +70,7 @@ a.link{
 header, section{
 	display: flex;
 	margin: 0 auto;
+	max-width: 80rem;
 }
 
 @media screen and (max-width: 640px){
