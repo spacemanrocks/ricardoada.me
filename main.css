@@ -137,6 +137,10 @@ section.about .lead{
 
 /*Headings*/
 
+.supertitle{
+	line-height: 1.05;
+	margin-bottom: 2.5rem;
+}
 .supertitle, .title, .subtitle{
 	font-weight: var(--weight-bold);
 }
