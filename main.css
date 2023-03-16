@@ -137,10 +137,6 @@ section.about .lead{
 
 /*Headings*/
 
-.supertitle{
-	line-height: 1.05;
-	margin-bottom: 2.5rem;
-}
 .supertitle, .title, .subtitle{
 	font-weight: var(--weight-bold);
 }
@@ -148,6 +144,8 @@ section.about .lead{
 @media (min-width:640px){
 	.supertitle{
 		font-size: var(--d-supertitle);
+		line-height: 1.05;
+		margin-bottom: 2.5rem;
 	}
 	.title{
 		font-size: var(--d-title);
@@ -159,6 +157,8 @@ section.about .lead{
 @media (max-width:640px){
 	.supertitle{
 		font-size: var(--m-supertitle);
+		line-height: 1.25;
+		margin-bottom: 1.5rem;
 	}
 	.title{
 		font-size: var(--m-title);
